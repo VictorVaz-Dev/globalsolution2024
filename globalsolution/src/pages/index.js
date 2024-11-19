@@ -1,5 +1,4 @@
 import styles from "./home.module.css";
-import "bootstrap/dist/css/bootstrap.min.css"; // Certifique-se de ter o Bootstrap instalado
 import { useState } from "react";
 
 export default function Home() {
