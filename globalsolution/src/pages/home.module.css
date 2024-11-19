@@ -152,36 +152,26 @@
     background-color: #1b5e20;
   }
   
-  .interactiveItem:hover {
+  .timelineItem:hover {
     transform: scale(1.02);
     transition: transform 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   }
   
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
+  
 
   /* Estilização do modal */
   .modalOverlay {
-  position: fixed; /* Fixa o modal na tela */
+  position: fixed; 
   top: 0;
   left: 0;
-  width: 100%; /* Ocupa toda a largura da tela */
-  height: 100%; /* Ocupa toda a altura da tela */
-  background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-  display: flex; /* Flexbox para centralizar */
-  align-items: center; /* Alinhamento vertical */
-  justify-content: center; /* Alinhamento horizontal */
-  z-index: 1000; /* Certifique-se de que o modal está acima de outros elementos */
+  width: 100%; 
+  height: 100%; 
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  z-index: 1000; 
 }
 
 .modal {
@@ -189,8 +179,8 @@
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  max-width: 500px; /* Limita a largura do modal */
-  width: 90%; /* Responsivo */
+  max-width: 500px; 
+  width: 90%; 
   position: relative;
 }
 
