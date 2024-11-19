@@ -1,0 +1,124 @@
+/* Hero Section */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #e8f5e9, #ffffff);
+  }
+  
+  .hero img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .hero .content {
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #65AC1E;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .cta {
+    background: #65AC1E;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Section Styling */
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #65AC1E;
+  }
+  
+  .section p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #555;
+  }
+  
+  /* Cards for Tecnologias Verdes */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin: 15px;
+    color: #65AC1E;
+  }
+  
+  /* Timeline for Metas de Emissões */
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  
+  .timeline-item {
+    padding: 20px;
+    position: relative;
+    width: 50%;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-item:nth-child(odd) {
+    left: 0;
+  }
+  
+  .timeline-item:nth-child(even) {
+    left: 50%;
+    text-align: left;
+  }
+  
+  .timeline-item h3 {
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  .timeline-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
