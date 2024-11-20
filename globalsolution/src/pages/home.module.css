@@ -199,4 +199,92 @@
   cursor: pointer;
 }
 
-  
+/* Botão Flutuante */
+.floatingButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.floatingButton:hover {
+  background-color: #0056b3;
+}
+
+/* Modal para o Chatbot */
+.chatbotModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+
+.chatbotModal {
+  position: relative;
+  background: white;
+  width: 400px;
+  max-width: 90%;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chatbotContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chatbotMessages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.chatbotMessageBot {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.chatbotMessageUser {
+  background-color: #e1ffe1;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+  align-self: flex-end;
+}
+
+.chatbotInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.chatbotSendMessage {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chatbotSendMessage:hover {
+  background-color: #0056b3;
+}
